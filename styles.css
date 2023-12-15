@@ -79,11 +79,11 @@ body {
   font-weight: 300;
 }
 
-.last-week {
+.previous {
   font-size: 0.9rem;
   color: var(--Desaturated-blue);
   position: relative;
-  top: 0.3rem;
+  top: 0.75rem;
 }
 
 /* Card Profile */

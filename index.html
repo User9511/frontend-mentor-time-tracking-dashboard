@@ -9,7 +9,7 @@
     <title>Frontend Mentor | Time tracking dashboard</title>
   </head>
   <body>
-    <div class="grid-container">
+    <main class="grid-container">
       <!-- Card Profile -->
       <div class="grid-item">
         <div class="profile-card-top">
@@ -19,13 +19,13 @@
             <h1>Jeremy Robson</h1>
           </div>
         </div>
-        <div class="time-intervals-container">
+        <nav class="time-intervals-container" aria-label="Time Intervals Navigation">
           <ul>
-            <li><button data-option="daily">Daily</button></li>
-            <li><button data-option="weekly">Weekly</button></li>
-            <li><button data-option="monthly">Monthly</button></li>
+            <li><button>Daily</button></li>
+            <li><button class="active">Weekly</button></li>
+            <li><button>Monthly</button></li>
           </ul>
-        </div>
+        </nav>
       </div>
       <!-- Card Work -->
       <div class="grid-item">
@@ -35,8 +35,8 @@
             <img src="./images/icon-ellipsis.svg" alt="" />
           </div>
           <div class="hours-container">
-            <p class="hours">32hrs</p>
-            <p class="last-week">Last Week - 36hrs</p>
+            <p class="hours"></p>
+            <p class="previous"></p>
           </div>
         </div>
       </div>
@@ -49,8 +49,8 @@
             <img src="./images/icon-ellipsis.svg" alt="" />
           </div>
           <div class="hours-container">
-            <p class="hours">10hrs</p>
-            <p class="last-week">Last Week - 8hrs</p>
+            <p class="hours"></p>
+            <p class="previous"></p>
           </div>
         </div>
       </div>
@@ -62,8 +62,8 @@
             <img src="./images/icon-ellipsis.svg" alt="" />
           </div>
           <div class="hours-container">
-            <p class="hours">4hrs</p>
-            <p class="last-week">Last Week - 7hrs</p>
+            <p class="hours"></p>
+            <p class="previous"></p>
           </div>
         </div>
       </div>
@@ -76,8 +76,8 @@
             <img src="./images/icon-ellipsis.svg" alt="" />
           </div>
           <div class="hours-container">
-            <p class="hours">4hrs</p>
-            <p class="last-week">Last Week - 5hrs</p>
+            <p class="hours"></p>
+            <p class="previous"></p>
           </div>
         </div>
       </div>
@@ -90,8 +90,8 @@
             <img src="./images/icon-ellipsis.svg" alt="" />
           </div>
           <div class="hours-container">
-            <p class="hours">5hrs</p>
-            <p class="last-week">Last Week - 10hrs</p>
+            <p class="hours"></p>
+            <p class="previous"></p>
           </div>
         </div>
       </div>
@@ -104,12 +104,12 @@
             <img src="./images/icon-ellipsis.svg" alt="" />
           </div>
           <div class="hours-container">
-            <p class="hours">2hrs</p>
-            <p class="last-week">Last Week - 2hrs</p>
+            <p class="hours"></p>
+            <p class="previous"></p>
           </div>
         </div>
       </div>
-    </div>
+    </main>
     <script src="./app.js"></script>
   </body>
 </html>
