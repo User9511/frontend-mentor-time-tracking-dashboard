@@ -21,5 +21,5 @@ This is a solution to the [Time tracking dashboard challenge on Frontend Mentor]
 
 ## Author
 
-- Frontend Mentor - [@User9511](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@User9511](https://www.frontendmentor.io/profile/User9511)
 - LinkedIn [Shane Mc Geown](https://www.linkedin.com/in/shanemcgeown/)
